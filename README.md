@@ -1,7 +1,7 @@
 Baseball Timeline
 =================
 
-![Teaser](https://raw.githubusercontent.com/jorgehpo/BaseballSchema/master/imgs/teaser.png?token=AOIqBwZSb7uijanuc7cU4uuSv-2egTfqks5br-J-wA%3D%3D)
+![Teaser](https://raw.githubusercontent.com/jorgehpo/BaseballTimeline/master/imgs/teaser.png?token=AOIqB7kFbaQrnHn4lcRTZPF_WqgzHU6yks5btOMKwA%3D%3D)
 Ono, Jorge P., Carlos Dietrich, and Claudio T. Silva. "Baseball Timeline: Summarizing Baseball Plays Into a Static Visualization." Computer Graphics Forum. Vol. 37. No. 3. 2018.
 
 Visualization inspired by Mareys Train Schedule to visualize baseball plays. On the left, we see the player trajectories. On the right, player movement over time. The X axis represents time, and the Y axis, player position relative to the bases. 
