@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Baseball Timeline</title>
+        <script src="node_modules/d3/build/d3.min.js"></script>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="src/constants.js"></script>
+        <script src="src/svgIcons.js"></script>
+        <script src="src/vectorize.js"></script>
+        <script src="src/LineChart.js"></script>
+        <script src="src/BaseballSchema.js"></script>
+        <script src="src/EventsChart.js"></script>
+        <script src="src/main.js"></script>
+        <script src="src/helpers.js"></script>
+        <script src="src/BaseballTimeline.js"></script>
+        <script src="src/BallStatus.js"></script>
+        <style>
+        	body {
+        		text-align: center;
+        	}
+            .tooltip {
+                visibility: hidden;
+                width: 120px;
+                height:20px;
+                background-color: black;
+                color: #fff;
+                text-align: center;
+                border-radius: 6px;
+                padding: 5px 0;
+                position: absolute;
+                z-index: 1;
+                bottom: 150%;
+                left: 50%;
+                margin-left: -60px;
+            }
+            .tooltip::after {
+                content: "";
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                margin-left: -5px;
+                border-width: 5px;
+                border-style: solid;
+                border-color: black transparent transparent transparent;
+            }
+    	</style>
+    </head>
+
+    <body onload="main();">
+        <div class="tooltip"></div>
+    </body>
+</html>

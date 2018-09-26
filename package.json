@@ -1,0 +1,23 @@
+{
+  "name": "baseball_schema",
+  "version": "1.0.0",
+  "description": "baseball schema visualization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgehpo/BaseballSchema.git"
+  },
+  "author": "Jorge Piazentin Ono",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgehpo/BaseballSchema/issues"
+  },
+  "homepage": "https://github.com/jorgehpo/BaseballSchema#readme",
+  "dependencies": {
+    "d3": "^4.11.0",
+    "jquery": "^3.2.1"
+  }
+}
